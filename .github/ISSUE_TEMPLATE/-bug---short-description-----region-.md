@@ -9,63 +9,81 @@ assignees: TDD-HEX
 
 # Incident Report
 
-## Basics
-- **SteamID(s):** <comma-separated>
-- **Server / Region:** <e.g. EU / NA>
-- **Date & Time (incl. timezone):** <YYYY-MM-DD HH:mm TZ>
+> Please fill out what you can. If something is unknown, write **Unknown** (don’t delete fields).
 
-## Classification
-- **Severity:** S0 (Blocker) / S1 (High) / S2 (Medium) / S3 (Low)
+---
 
-### Checklist (pick what applies)
-- [ ] Bug
-- [ ] Exploit
-- [ ] Abuse / Rule break
-- [ ] Performance / Crash
-- [ ] UI / UX
-- [ ] Economy / Currency
-- [ ] Other
+## 1) Quick Info
+- **SteamID(s):** `7656..., 7656...` (comma-separated)  
+- **Server / Region:** `EU / NA / AS / ...`  
+- **Date & Time (with timezone):** `YYYY-MM-DD HH:mm (e.g. 2026-01-09 18:30 CET)`  
+- **Where did it happen?** `In-game / Website / Discord / Admin tools / Other`
 
-## Summary
+---
+
+## 2) Type & Severity
+- **Severity (choose one):**
+  - **S0** = Blocker (service/game unusable)
+  - **S1** = High (major impact, abuse/dupe, frequent crashes)
+  - **S2** = Medium (annoying but playable, limited impact)
+  - **S3** = Low (minor issue, cosmetic)
+
+- **Category (check all that apply):**
+  - [ ] Bug
+  - [ ] Exploit / Duping
+  - [ ] Abuse / Rule break
+  - [ ] Performance / Crash
+  - [ ] UI / UX
+  - [ ] Economy / Currency
+  - [ ] Other: <describe>
+
+---
+
+## 3) Summary (2–5 sentences)
 **What happened?**  
-<Describe the incident in 2–5 sentences.>
+<Explain it like you’re telling another admin what you just saw.>
 
-## Expected vs Actual
+---
+
+## 4) Expected vs Actual
 - **Expected:** <what should have happened?>
 - **Actual:** <what happened instead?>
 
-## Reproduction (if possible)
-**Reproducible?** Yes / No / Sometimes / Unknown
+---
+
+## 5) Steps / Reproduction (if possible)
+**Reproducible?** `Yes / No / Sometimes / Unknown`  
+**Frequency:** `Always / Often / Sometimes / Once / Unknown`
 
 1. <Step 1>
 2. <Step 2>
 3. <Step 3>
 
-**Frequency:** <always / sometimes / once / unknown>
+> If you can’t reproduce: describe what the player did right before it happened.
 
-## Impact
+---
+
+## 6) Impact
 - **Users affected:** <number or estimate>
-- **Impact / damage:** <e.g. game stuck, currency duped, server crash, item loss>
-- **Known workaround:** Yes / No  
-  - If yes: <describe workaround>
+- **What’s the damage/impact?**  
+  <e.g. battle stuck, currency duped, server crash, item loss, unfair advantage>
+- **Workaround available?** `Yes / No / Unknown`  
+  - If **Yes**: <describe workaround>
 
-## Related IDs / References (if available)
-| Type | Value |
-|------|-------|
-| battleId | <id> |
-| transactionId | <id> |
-| offerId | <id> |
-| matchId | <id> |
-| server log time | <timestamp> |
-| other | <anything helpful> |
+---
 
-## Evidence (required for most incidents)
-- **Screenshots:** <links or attachments>
+## 7) IDs / References (if available)
+
+
+---
+
+## 8) Evidence (required for most incidents)
+- **Screenshots:** <attach or link>
 - **Video:** <link>
-- **Links:** <dashboard / DB record / Discord message links>
+- **Links:** <Discord message / dashboard / DB record / anything relevant>
 
 <details>
   <summary>Logs (click to expand)</summary>
 
 ```text
-Paste relevant logs here
+Paste relevant logs here.
