@@ -3,69 +3,70 @@ name: "[BUG] <Short-Description> | <REGION>"
 about: Please keep it short
 title: "[BUG] <Short-Title> | <Region>"
 labels: bug
-assignees: RealTimoW
+assignees: ''
 
 ---
 
-## Incident Report
+# Incident Report
 
-### Basics
-- **SteamID(s):**
-- **Server / Region:**
-- **Date & Time (incl. timezone):**
-- **Category:** Bug / Exploit / Abuse / Performance / UI / Economy / Other
+## Basics
+- **SteamID(s):** <comma-separated>
+- **Server / Region:** <e.g. EU / NA>
+- **Date & Time (incl. timezone):** <YYYY-MM-DD HH:mm TZ>
+
+## Classification
 - **Severity:** S0 (Blocker) / S1 (High) / S2 (Medium) / S3 (Low)
 
----
+### Checklist (pick what applies)
+- [ ] Bug
+- [ ] Exploit
+- [ ] Abuse / Rule break
+- [ ] Performance / Crash
+- [ ] UI / UX
+- [ ] Economy / Currency
+- [ ] Other
 
-### What happened?
-Describe what occurred in a clear and short way.
+## Summary
+**What happened?**  
+<Describe the incident in 2–5 sentences.>
 
----
+## Expected vs Actual
+- **Expected:** <what should have happened?>
+- **Actual:** <what happened instead?>
 
-### Expected behavior
-What should have happened instead?
+## Reproduction (if possible)
+**Reproducible?** Yes / No / Sometimes / Unknown
 
----
+1. <Step 1>
+2. <Step 2>
+3. <Step 3>
 
-### Actual behavior
-What happened instead (what you observed)?
+**Frequency:** <always / sometimes / once / unknown>
 
----
+## Impact
+- **Users affected:** <number or estimate>
+- **Impact / damage:** <e.g. game stuck, currency duped, server crash, item loss>
+- **Known workaround:** Yes / No  
+  - If yes: <describe workaround>
 
-### Reproduction steps (if possible)
-1.
-2.
-3.
+## Related IDs / References (if available)
+| Type | Value |
+|------|-------|
+| battleId | <id> |
+| transactionId | <id> |
+| offerId | <id> |
+| matchId | <id> |
+| server log time | <timestamp> |
+| other | <anything helpful> |
 
----
+## Evidence (required for most incidents)
+- **Screenshots:** <links or attachments>
+- **Video:** <link>
+- **Links:** <dashboard / DB record / Discord message links>
 
-### Frequency
-- Always / Sometimes / Once / Unknown
+<details>
+  <summary>Logs (click to expand)</summary>
 
----
-
-### Impact
-- **How many users affected?**
-- **Impact / damage:** (e.g. currency duped, game stuck, server crash, item loss)
-- **Known workaround?** Yes / No  
-  If yes, describe:
-
----
-
-### Related IDs / References (if available)
-Add any IDs that help developers find the exact records/logs:
-- **battleId:**
-- **transactionId:**
-- **offerId:**
-- **matchId:**
-- **other:**
-
----
-
-### Evidence / Logs / Links
-Attach or link anything useful:
-- Screenshots:
-- Video:
-- Log snippets:
-- Links (dashboard/DB/Discord messages):
+```text
+Paste relevant logs here (server/backend/RCON).
+Redact secrets (tokens, IPs, passwords).
