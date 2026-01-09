@@ -3,7 +3,7 @@ name: "[BUG] <Short-Description> | <REGION>"
 about: Please keep it short
 title: "[BUG] <Short-Title> | <Region>"
 labels: bug
-assignees: ''
+assignees: TDD-HEX
 
 ---
 
