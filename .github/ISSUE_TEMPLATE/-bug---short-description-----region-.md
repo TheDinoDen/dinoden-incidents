@@ -15,8 +15,8 @@ assignees: TDD-HEX
 
 ## 1) Quick Info
 - **SteamID(s):** `7656..., 7656...` (comma-separated)  
-- **Server / Region:** `EU / NA / AS / ...`  
-- **Date & Time (with timezone):** `YYYY-MM-DD HH:mm (e.g. 2026-01-09 18:30 CET)`  
+- **Server / Region:** `EU / NA`  
+- **Date & Time (with timezone):** `MM-DD HH:mm (e.G. 01-09 18:30 CET)`  
 - **Where did it happen?** `In-game / Website / Discord / Admin tools / Other`
 
 ---
@@ -39,7 +39,7 @@ assignees: TDD-HEX
 
 ---
 
-## 3) Summary (2–5 sentences)
+## 3) Summary 
 **What happened?**  
 <Explain it like you’re telling another admin what you just saw.>
 
@@ -73,8 +73,6 @@ assignees: TDD-HEX
 ---
 
 ## 7) IDs / References (if available)
-
-
 ---
 
 ## 8) Evidence (required for most incidents)
