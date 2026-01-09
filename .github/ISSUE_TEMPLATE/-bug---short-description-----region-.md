@@ -68,5 +68,4 @@ assignees: ''
   <summary>Logs (click to expand)</summary>
 
 ```text
-Paste relevant logs here (server/backend/RCON).
-Redact secrets (tokens, IPs, passwords).
+Paste relevant logs here
